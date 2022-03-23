@@ -1,0 +1,30 @@
+
+#sidebar-body {
+	background-color: black;
+	color: var(--accent-color);
+	/* display: block; */
+	font-family: 'Roboto Mono', monospace;
+	height: 100vh;
+	left: 0;
+	opacity: 75%;
+	/* position: fixed; */
+	top: 0;
+	width: 12.5vw;
+}
+
+#nameplate {
+	display: block;
+	padding: 8px;
+}
+
+.sidebar-link {
+	color: var(--accent-color);
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	width: calc(100% - 2 * padding);
+}
+
+.sidebar-link:hover {
+	background-color: var(--link-active-background-color);
+}

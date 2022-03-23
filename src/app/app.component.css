@@ -1,0 +1,19 @@
+
+#bg-canvas {
+	/* display: block; */
+	background: linear-gradient(0deg, rgba(32,32,32,1) 0%, rgba(64,64,64,1) 100%);
+	background-color: var(--background-color);
+	position: fixed;
+	width: 100vw;
+	z-index: -1;
+}
+
+#bigboxofgoodies {
+	display: flex;
+}
+
+#content-viewport {
+	flex-grow: 1;
+	overflow: scroll;
+	scrollbar-width: none;
+}

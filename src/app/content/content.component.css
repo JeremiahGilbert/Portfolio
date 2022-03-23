@@ -1,0 +1,18 @@
+.content-block {
+	background-color: var(--background-color-dark);
+	box-shadow: 0 0 8px black;
+	margin: 6.25vh 12.5vw;
+	opacity: 50%;
+}
+
+.content-block > h1 {
+	font-weight: 400;
+	color: var(--accent-color);
+	margin: 0;
+	padding: 8px;
+}
+
+.content-block > p {
+	color: white;
+	padding: 8px;
+}
